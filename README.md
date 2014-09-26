@@ -1,4 +1,4 @@
-/******** Directory  ************/
+/******** Telephone Directory  ************/
 
 
 It is a simple wordpress plugin for save contacts.
