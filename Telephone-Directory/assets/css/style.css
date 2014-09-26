@@ -1,0 +1,87 @@
+.alert
+{
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 20px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.alert-success {
+color: #468847;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+}
+
+
+.alert-error {
+color: #b94a48;
+background-color: #f2dede;
+border-color: #eed3d7;
+}
+
+#adminmenu .wp-submenu {
+margin-left:0px;
+}
+
+.hid{
+display:none !important;
+}
+
+.shw{
+display:block !important;
+}
+
+.update{
+width:100px;
+}
+
+.page-restrict-output{
+display:none;
+}
+
+.pageno
+{
+background-color: darkgray;
+border-radius: 10px;
+padding-left: 6px;
+padding-right: 6px;
+}
+
+.index{
+font-weight:bold;
+margin-left: 130px;
+margin-top: 170px;
+position: absolute;
+}
+
+/*
+
+@-webkit-keyframes invalid {
+  from { background-color: green; }
+  to { background-color: inherit; }
+}
+@-moz-keyframes invalid {
+  from { background-color: green; }
+  to { background-color: inherit; }
+}
+@-o-keyframes invalid {
+  from { background-color: green; }
+  to { background-color: inherit; }
+}
+@keyframes invalid {
+  from { background-color: green; }
+  to { background-color: inherit; }
+}
+.invalid {
+  -webkit-animation: invalid 1s infinite; 
+  -moz-animation:    invalid 1s infinite; 
+  -o-animation:      invalid 1s infinite; 
+  animation:         invalid 1s infinite; 
+}
+
+*/
+

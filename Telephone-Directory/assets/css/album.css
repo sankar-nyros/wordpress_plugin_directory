@@ -1,0 +1,64 @@
+html, body{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'georgia';
+	font-size: 14px;
+}
+
+body{
+	background-color: #ccc;
+}
+
+.box{
+	float: left;
+	width: 100%;
+}
+
+.center{
+	width: 600px;
+	margin: 0px auto;	
+}
+
+img{
+	border: 0px;
+}
+
+#demo{
+	margin: 50px 0px 0px 0px;
+	border-radius: 5px;
+	background: #000 url('../images/bg.png');
+}
+
+/* pages */
+.page1 .title{	
+	padding: 0px 0px 0px 0px;	
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: bold;
+	color: #404040;
+}
+
+.flipbook-black .flipbook-page p a {
+    color: #4F1C0D;
+	text-decoration: none;
+}
+
+.flipbook-page{
+	background-color: #fff;
+}
+
+p.img{
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+p.img img{
+	border: 1px solid #fff;
+}
+
+p.title{
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+

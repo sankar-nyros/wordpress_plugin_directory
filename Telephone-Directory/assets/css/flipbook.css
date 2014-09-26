@@ -1,0 +1,267 @@
+/* common */
+.flipbook{
+	position: relative;
+	display: none;
+}
+
+.flipbook .flipbook-ul{
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+}
+
+.flipbook .flipbook-ul .flipbook-ul-li{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.flipbook .flipbook-ul .flipbook-ul-li .flipbook-page{
+	position: absolute;
+	overflow: hidden;
+}
+
+.flipbook-controls{
+	width: 100%;
+	float: left;
+	margin: 5px 0px 0px 0px;
+	display: none;
+}
+
+.flipbook-controls ul{
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+	list-style: none;
+	float: left;
+}
+
+.flipbook-controls ul li{
+	float: left;
+}
+
+.flipbook-controls .btn{
+	width: 25px;
+	height: 25px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.flipbook-preloader p{
+	text-align: center;
+	padding: 30px 30px 30px 30px;
+	margin: 0px 0px 0px 0px;
+}
+
+.flipbook img{
+	border: 0px;
+}
+
+
+.flipbook .prev-handle{
+	position: absolute;
+	cursor: pointer;
+}
+
+.flipbook .next-handle{
+	position: absolute;
+	cursor: pointer;
+}
+
+/* black theme */
+.flipbook-black{
+	border: 1px solid #aaa;
+	float: left;
+	padding: 25px 15px 15px 15px;	
+	background: #444 url('../images/bg.jpg');
+	border-radius: 5px;
+	
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
+}
+
+.flipbook-black .flipbook-controls .btn{
+	width: 25px;
+	height: 25px;
+}
+
+.flipbook-black .flipbook-controls .prev-btn input{
+	background: url('../images/left.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls  input.prev-btn-off{
+	background: url('../images/left-off.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .next-btn input{
+	background: url('../images/right.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls input.next-btn-off{
+	background: url('../images/right-off.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .first-btn input{
+	background: url('../images/first.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls  input.first-btn-off{
+	background: url('../images/first-off.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .last-btn input{
+	background: url('../images/last.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls input.last-btn-off{
+	background: url('../images/last-off.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .play-btn input{
+	background: url('../images/play.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .pause-btn input{
+	background: url('../images/pause.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .stop-btn input{
+	background: url('../images/stop.png') no-repeat;
+}
+
+.flipbook-black .flipbook-controls .slideshow{
+	margin: 10px 5px 0px 0px;
+}
+
+.flipbook-black .flipbook-page p{
+	text-align: center;	
+}
+
+.flipbook-black .flipbook-page p a{
+	color: #4F1C0D;
+}
+
+.flipbook-black .flipbook-controls .paging span{
+	color: #fff;
+	cursor: pointer;
+	padding: 0px 5px 0px 5px;
+	line-height: 25px;
+	font-family: 'arial';
+	font-size: 12px;
+}
+
+.flipbook-black .flipbook-controls li.paging span.current{
+	color: #FFF600;
+}
+
+/* white theme */
+.flipbook-white{
+	border: 1px solid #aaa;
+	float: left;
+	padding: 25px 15px 15px 15px;	
+	background: #fff;
+	border-radius: 5px;
+	
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
+}
+
+.flipbook-white .flipbook-controls .btn{
+	width: 15px;
+	height: 15px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+
+.flipbook-white .flipbook-controls .prev-btn input{
+	background: url('../themes/white/left.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls  input.prev-btn-off{
+	background: url('../themes/white/left-off.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls .next-btn input{
+	background: url('../themes/white/right.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls input.next-btn-off{
+	background: url('../themes/white/right-off.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls .first-btn input{
+	background: url('../themes/white/first.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls  input.first-btn-off{
+	background: url('../themes/white/first-off.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls .last-btn input{
+	background: url('../themes/white/last.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls input.last-btn-off{
+	background: url('../themes/white/last-off.png') no-repeat;
+}
+
+.flipbook-white .flipbook-page p{
+	text-align: center;	
+}
+
+.flipbook-white .flipbook-page p a{
+	color: #4F1C0D;
+}
+
+.flipbook-white .flipbook-controls .paging span{
+	color: #000;
+	cursor: pointer;
+	padding: 0px 5px 0px 5px;
+	line-height: 15px;
+	font-family: 'verdana';
+	font-size: 12px;
+	
+	display: block;
+	float: left;
+}
+
+.flipbook-white .flipbook-controls .slideshow .btn{
+	width: 25px;
+	height: 25px;
+}
+
+.flipbook-white .flipbook-controls li.paging span.current{
+	color: #066889;
+}
+
+
+.flipbook-white .flipbook-controls .play-btn input{
+	background: url('../images/play.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls .pause-btn input{
+	background: url('../images/pause.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls .stop-btn input{
+	background: url('../images/stop.png') no-repeat;
+}
+
+.flipbook-white .flipbook-controls .slideshow{
+	margin: 5px 5px 0px 0px;
+}
+
+.page-left{
+  background: url("../images/left-page.jpg") repeat-y scroll right center #e6e5e0;
+}
+
+.page-right{
+/*background: url("../images/4.jpg") repeat-y scroll 0 0 #fff;*/
+}
+
